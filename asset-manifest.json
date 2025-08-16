@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pavithran-portfolio/static/css/main.e8dfad86.css",
+    "main.js": "/pavithran-portfolio/static/js/main.fc439bdb.js",
+    "static/media/poster.jpeg": "/pavithran-portfolio/static/media/poster.1a13d9817b8c5b397c94.jpeg",
+    "static/media/profile.jpeg": "/pavithran-portfolio/static/media/profile.501ac354d5bad01908c2.jpeg",
+    "static/media/explain.jpeg": "/pavithran-portfolio/static/media/explain.beb460fe513db82e58aa.jpeg",
+    "index.html": "/pavithran-portfolio/index.html",
+    "main.e8dfad86.css.map": "/pavithran-portfolio/static/css/main.e8dfad86.css.map",
+    "main.fc439bdb.js.map": "/pavithran-portfolio/static/js/main.fc439bdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8dfad86.css",
+    "static/js/main.fc439bdb.js"
+  ]
+}
