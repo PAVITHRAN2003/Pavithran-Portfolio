@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Pavithran-Portfolio">
       <div className="bg-gray-50 text-gray-800">
         <Navbar />
         <Routes>
