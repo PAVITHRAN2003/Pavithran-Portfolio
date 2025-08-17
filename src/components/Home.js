@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import profileImg from "../assets/profile.jpeg"; 
 import resume from "../assets/Pavithran_Gnanasekaran_SDE_Resume.pdf";
 
@@ -21,12 +22,12 @@ function Home() {
           M.S. Computer Science <span className="text-pink-500">|</span> Full-Stack Developer - AI & ML
         </p>
         <div className="flex flex-col md:flex-row gap-4 mt-4">
-          <a
-            href="/Pavithran-Portfolio/about"
+          <Link
+            to="/about"   // use "to" instead of href
             className="px-8 py-3 bg-pink-500 text-white rounded-xl font-semibold shadow hover:bg-pink-600 transition"
           >
             About Me
-          </a>
+          </Link>
           <a
             href={resume}
             target="_blank"
