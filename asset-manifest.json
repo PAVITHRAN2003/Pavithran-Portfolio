@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Pavithran-Portfolio/static/css/main.2f6642cd.css",
-    "main.js": "/Pavithran-Portfolio/static/js/main.04edfc65.js",
+    "main.css": "/Pavithran-Portfolio/static/css/main.ea7383fc.css",
+    "main.js": "/Pavithran-Portfolio/static/js/main.97cc91a7.js",
     "static/media/profile.jpeg": "/Pavithran-Portfolio/static/media/profile.c0f24e2fa7f267a4de9b.jpeg",
     "static/media/poster.jpeg": "/Pavithran-Portfolio/static/media/poster.1a13d9817b8c5b397c94.jpeg",
     "static/media/explain.jpeg": "/Pavithran-Portfolio/static/media/explain.beb460fe513db82e58aa.jpeg",
     "static/media/Pavithran_Gnanasekaran_SDE_Resume.pdf": "/Pavithran-Portfolio/static/media/Pavithran_Gnanasekaran_SDE_Resume.7840f55e989af8ad9e6e.pdf",
     "index.html": "/Pavithran-Portfolio/index.html",
-    "main.2f6642cd.css.map": "/Pavithran-Portfolio/static/css/main.2f6642cd.css.map",
-    "main.04edfc65.js.map": "/Pavithran-Portfolio/static/js/main.04edfc65.js.map"
+    "main.ea7383fc.css.map": "/Pavithran-Portfolio/static/css/main.ea7383fc.css.map",
+    "main.97cc91a7.js.map": "/Pavithran-Portfolio/static/js/main.97cc91a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f6642cd.css",
-    "static/js/main.04edfc65.js"
+    "static/css/main.ea7383fc.css",
+    "static/js/main.97cc91a7.js"
   ]
 }
