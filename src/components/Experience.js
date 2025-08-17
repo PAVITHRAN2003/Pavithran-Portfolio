@@ -36,17 +36,27 @@ const experiences = [
 
 function Experience() {
   return (
-    <section id="experience" className="py-20 px-6 max-w-5xl mx-auto">
-      <h2 className="text-3xl font-bold mb-10">Experience</h2>
-      {experiences.map((exp, i) => (
-        <div key={i} className="mb-8 p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-          <h3 className="text-xl font-semibold">{exp.role}</h3>
-          <p className="italic">{exp.company} | {exp.duration}</p>
-          <ul className="list-disc list-inside mt-2">
-            {exp.bullets.map((bullet, index) => <li key={index}>{bullet}</li>)}
-          </ul>
-        </div>
-      ))}
+    <section 
+      id="experience" 
+      className="min-h-screen bg-pink-50 py-20 px-6 flex flex-col items-center"
+    >
+      <div className="max-w-5xl w-full">
+        <h2 className="text-3xl font-bold mb-10 text-black">Experience</h2>
+        {experiences.map((exp, i) => (
+          <div 
+            key={i} 
+            className="mb-8 p-6 bg-pink-200 text-black rounded-2xl shadow-md hover:shadow-lg transition"
+          >
+            <h3 className="text-xl font-semibold">{exp.role}</h3>
+            <p className="italic">{exp.company} | {exp.duration}</p>
+            <ul className="list-disc list-inside mt-2 space-y-1">
+              {exp.bullets.map((bullet, index) => (
+                <li key={index}>{bullet}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

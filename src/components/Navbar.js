@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-6 bg-white shadow-md sticky top-0 z-50">
-      <h1 className="text-xl font-bold">Pavithran Gnanasekaran</h1>
+    <nav className="flex justify-between items-center p-6 bg-black shadow-md sticky top-0 z-50">
+      <h1 className="text-xl font-bold text-white">Pavithran Gnanasekaran</h1>
       <ul className="flex space-x-6">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/experience">Experience</Link></li>
-        <li><Link to="/research">Research</Link></li>
-        <li><Link to="/skills">Skills</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/" className="text-white hover:text-pink-400 transition">Home</Link></li>
+        <li><Link to="/about" className="text-white hover:text-pink-400 transition">About</Link></li>
+        <li><Link to="/projects" className="text-white hover:text-pink-400 transition">Projects</Link></li>
+        <li><Link to="/experience" className="text-white hover:text-pink-400 transition">Experience</Link></li>
+        <li><Link to="/research" className="text-white hover:text-pink-400 transition">Research</Link></li>
+        <li><Link to="/skills" className="text-white hover:text-pink-400 transition">Skills</Link></li>
+        <li><Link to="/contact" className="text-white hover:text-pink-400 transition">Contact</Link></li>
       </ul>
     </nav>
   );
