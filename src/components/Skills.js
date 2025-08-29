@@ -16,8 +16,10 @@ function Skills() {
       className="min-h-screen flex flex-col justify-center items-center bg-pink-50 py-20 px-6"
     >
       <div className="max-w-4xl w-full bg-pink-200 bg-opacity-90 rounded-3xl shadow-lg p-10">
-        <h2 className="text-3xl font-bold mb-6 text-black">Skills</h2>
-        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc list-inside text-black">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-center text-black">
+          Skills
+        </h2>
+        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc list-inside text-black text-lg md:text-xl">
           {skills.map((skill, i) => <li key={i}>{skill}</li>)}
         </ul>
       </div>

@@ -7,12 +7,13 @@ function Navbar() {
       <h1 className="text-xl font-bold text-white">Pavithran Gnanasekaran</h1>
       <ul className="flex space-x-6">
         <li><Link to="/" className="text-white hover:text-pink-400 transition">Home</Link></li>
-        <li><Link to="/about" className="text-white hover:text-pink-400 transition">About</Link></li>
-        <li><Link to="/projects" className="text-white hover:text-pink-400 transition">Projects</Link></li>
-        <li><Link to="/experience" className="text-white hover:text-pink-400 transition">Experience</Link></li>
-        <li><Link to="/research" className="text-white hover:text-pink-400 transition">Research</Link></li>
-        <li><Link to="/skills" className="text-white hover:text-pink-400 transition">Skills</Link></li>
-        <li><Link to="/contact" className="text-white hover:text-pink-400 transition">Contact</Link></li>
+        <li><Link to="/About" className="text-white hover:text-pink-400 transition">About</Link></li>
+        <li><Link to="/Education" className="text-white hover:text-pink-400 transition">Education</Link></li>
+        <li><Link to="Projects" className="text-white hover:text-pink-400 transition">Projects</Link></li>
+        <li><Link to="/Experience" className="text-white hover:text-pink-400 transition">Experience</Link></li>
+        <li><Link to="/Research" className="text-white hover:text-pink-400 transition">Research</Link></li>
+        <li><Link to="/Skills" className="text-white hover:text-pink-400 transition">Skills</Link></li>
+        <li><Link to="/Contact" className="text-white hover:text-pink-400 transition">Contact</Link></li>
       </ul>
     </nav>
   );
