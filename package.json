@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://PAVITHRAN2003.github.io/Pavithran-Portfolio/",
   "dependencies": {
+    "lucide-react": "^0.539.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.8.1",
