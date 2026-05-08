@@ -2,11 +2,27 @@ import React from "react";
 import posterImg from "../assets/poster.jpeg"; // Poster image
 
 const projects = [
+  
   {
-    title: "LLM-Based Text Summarization with BART",
-    role: "Individual Project | Buffalo, New York | Mar 2025 – May 2025",
-    description: "Developed a BART-based text summarization system capable of handling long documents of up to 4,000 words, generating concise 100–200 word summaries. Leveraging mixed precision training in PyTorch, I reduced memory consumption and convergence time by 35%. Built a FastAPI backend that supports over 100 concurrent requests with latency under 200ms, enabling fast, scalable summarization for real-world applications."
+    title: "TaskFlow Pro – Full-Stack Task Management System",
+    role: "Individual Project | Buffalo, New York | June 2025 – Aug 2025 ",
+    link: "https://task-flowproversion.vercel.app/",
+    description: "Designed and developed a full-stack task management platform using React, FastAPI, and MongoDB with JWT-based authentication, supporting complete task lifecycle via REST APIs. Integrated email-based notifications and an AI-powered group assistant to improve collaboration, reducing task failure rate from 12% to 2% through automated retry and alert mechanisms. Containerized the application using Docker and deployed via Vercel and Render CI/CD pipelines, reducing setup time to under 1 minute."
   },
+  {
+    title: "Real-Time SSD Failure Detection using LSTM Autoencoders",
+    role: "Team Member | Buffalo, New York | June 2025 – Aug 2025",
+    link: "https://github.com/PAVITHRAN2003/Anomaly-detection-using-Auto-encoder",
+    description: "Developed an LSTM autoencoder-based anomaly detection system for SSD failure prediction using 3.1M+ SMART telemetry records, achieving ~98% recall on failure events. Modeled anomalies using reconstruction error thresholds, successfully predicting 1578 out of 1580 drive failures before crash occurrence. Applied PCA to reduce 90+ SMART features to 18 principal components, reducing training time by 40% while improving model stability and efficiency."
+  },
+
+  {
+  title: "LLM-Based Text Summarization with BART",
+  role: "Individual Project | Buffalo, New York | Mar 2025 – May 2025",
+  link: "https://github.com/PAVITHRAN2003/LLM-Abstractive-Summarization",
+  description: "Built a BART + RAG-based abstractive summarization system capable of processing long-form documents up to 4,000 words and generating coherent 100–200 word summaries with contextual grounding. Trained using PyTorch AMP and Hugging Face Transformers, reducing GPU memory consumption by 35% and improving convergence speed by 3x. Deployed a FastAPI backend with Docker and Nginx, integrated with MongoDB, supporting 100+ concurrent requests with sub-200ms latency for production-ready summarization."
+  },
+
   {
     title: "Pintos Operating System Project",
     role: "Team Member | Buffalo, New York | Feb 2025 – May 2025",
@@ -61,6 +77,16 @@ export default function Projects() {
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-2">{proj.title}</h3>
               <p className="mb-4 italic text-gray-800">{proj.role}</p>
+                {proj.link && (
+                <a
+                  href={proj.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 underline mb-4 inline-block"
+                >
+                  View Project
+                </a>
+              )}
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">{proj.description}</p>
             </div>
           </div>

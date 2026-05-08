@@ -11,16 +11,16 @@ function About() {
           About Me
         </h2>
         <p className="mb-6 text-black text-lg md:text-xl leading-relaxed">
-          I am pursuing my M.S. in Computer Science at SUNY Buffalo with a focus on Artificial Intelligence and Machine Learning. 
-          Beyond academics, I am deeply passionate about Mathematics and how it shapes the foundation of modern AI systems.
+          Full-stack software engineer with over a year of experience building end-to-end applications across startups, research labs, and university platforms, with an M.S. in Computer Science (AI/ML) from the University at Buffalo.
         </p>
         <p className="mb-6 text-black text-lg md:text-xl leading-relaxed">
-          I love tackling real-world problems where technology can create meaningful impact whether through building 
-          efficient data pipelines, designing scalable ML models, or developing full-stack applications.
+          I’m deeply passionate about mathematics and its role in shaping modern AI systems, and I enjoy solving real-world problems through scalable software, intelligent data pipelines, and production-ready ML systems.
         </p>
-        <p className="text-black text-lg md:text-xl leading-relaxed">
-          At my core, I am a tech-driven person who thrives on innovation, continuous learning, and solving complex challenges. 
-          My interests span Generative AI, LLMs, Deep learning and Reinforcement learning optimization techniques that push the boundaries of what AI can achieve.
+        <p className="mb-6 text-black text-lg md:text-xl leading-relaxed">
+          At my core, I thrive on innovation, fast iteration, and continuous learning. My interests span Generative AI, LLMs, deep learning, and reinforcement learning - building systems that are technically rigorous, practical, and impactful in production.
+        </p>
+        <p className="mb-6text-black text-lg md:text-xl leading-relaxed">
+          Actively seeking full-time Software Engineer roles and always open to connecting about technology, projects, and opportunities
         </p>
       </div>
     </section>

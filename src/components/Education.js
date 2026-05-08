@@ -17,10 +17,10 @@ function Education() {
           <div>
             <div className="absolute -left-5 top-1 w-10 h-10 rounded-full bg-pink-400 border-4 border-white shadow-md"></div>
             <h3 className="text-2xl font-bold text-gray-800">Master of Science in Computer Science</h3>
-            <span className="text-md text-gray-600">University at Buffalo • Aug 2024 – Present</span>
+            <span className="text-md text-gray-600">University at Buffalo • Aug 2024 – Dec 2025</span>
             <p className="mt-4 text-lg text-gray-700 leading-relaxed">
               Specializing in Artificial Intelligence and Machine Learning with deep dives into 
-              algorithms, deep learning, reinforcement learning, and optimization. 
+              Data Structures & Algorithms, Deep learning, Reinforcement learning, and Computer Vision. 
               This program strengthens both my research skills and my ability to build scalable, 
               impactful AI solutions for real-world challenges.
             </p>

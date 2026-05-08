@@ -2,10 +2,22 @@ import React from "react";
 
 const experiences = [
   {
+    role: "Software Engineer",
+    company: "Alvora AI",
+    duration: "Aug 2025 – Present",
+    description: "Built a RAG-based chatbot using LLMs with a retrieval pipeline, validated on 200+ test queries, improving response relevance by 40%. Engineered a mentor-matching system using cosine similarity and Elasticsearch, reducing matching latency from 8s to 2.8s. Optimized prompt engineering pipelines and containerized Django services with Docker and Kubernetes, cutting environment setup time to under 2 minutes. Developed a Django-based frontend for user onboarding, validation, and data storage, securely managing 250+ mentor and user records."
+  },
+  {
+    role: "Research Assistant",
+    company: "University at Buffalo - Computer Systems and AI Research Lab, Buffalo, NY",
+    duration: "May 2025 – Present",
+    description: "Built a 16-node multi-agent pipeline on HPC infrastructure for explainable medical AI, achieving 90% accuracy in automated report generation. Deployed a real-time RAG application via REST APIs and Hugging Face, containerized with Docker and Kubernetes, reducing inference latency by 30%. Designed a GraphRAG reasoning engine using LangChain, LangGraph, and Neo4j, improving retrieval precision by 40%."
+  },
+  {
     role: "Software Analyst - Data",
     company: "UB - Office of Academic Affairs, Buffalo, NY",
-    duration: "Mar 2025 – Present",
-    description: "Built efficient PyTorch data pipelines to process large-scale logs, boosting observability and runtime efficiency by 40%. Automated context dataset collection and labeling across teams, enhancing data quality and ML pipeline performance. Designed telemetry APIs and dashboards that reduced mean-time-to-detect and debug latency by over 30%. Improved test infrastructure and deployment monitoring, cutting regression bugs and drift issues by 15%, ensuring smooth and reliable operations."
+    duration: "Jan 2025 – May 2025",
+    description: "Engineered an n8n-based agentic workflow to query databases, enrich leads, and automate 2,700+ LinkedIn and email outreach operations. Designed and implemented data pipelines using Apache Spark, Kafka, and Airflow, reducing ingestion latency from 6 hours to 90 minutes. Refactored 12 high-latency PostgreSQL queries, improving average execution time from 4.2s to 0.8s. Monitored and optimized three microservices on Kubernetes with Docker and AWS EKS, ensuring 99% system uptime under peak load."
   },
   {
     role: "Software Engineer Intern",
