@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Pavithran-Portfolio/static/css/main.78026efb.css",
-    "main.js": "/Pavithran-Portfolio/static/js/main.f9d0d266.js",
+    "main.js": "/Pavithran-Portfolio/static/js/main.c06fe18e.js",
     "static/media/profile.jpeg": "/Pavithran-Portfolio/static/media/profile.c0f24e2fa7f267a4de9b.jpeg",
     "static/media/poster.jpeg": "/Pavithran-Portfolio/static/media/poster.1a13d9817b8c5b397c94.jpeg",
-    "static/media/Pavithran_Gnanasekaran_SDE_Resume.pdf": "/Pavithran-Portfolio/static/media/Pavithran_Gnanasekaran_SDE_Resume.6af5c77b005f5a8744a6.pdf",
+    "static/media/Pavithran_Gnanasekaran_SDE_Resume.pdf": "/Pavithran-Portfolio/static/media/Pavithran_Gnanasekaran_SDE_Resume.183951a71d83d580f2e0.pdf",
     "static/media/IEEE_pittssburgh.jpeg": "/Pavithran-Portfolio/static/media/IEEE_pittssburgh.bd06742792232d424afe.jpeg",
     "static/media/explain.jpeg": "/Pavithran-Portfolio/static/media/explain.beb460fe513db82e58aa.jpeg",
     "index.html": "/Pavithran-Portfolio/index.html",
     "main.78026efb.css.map": "/Pavithran-Portfolio/static/css/main.78026efb.css.map",
-    "main.f9d0d266.js.map": "/Pavithran-Portfolio/static/js/main.f9d0d266.js.map"
+    "main.c06fe18e.js.map": "/Pavithran-Portfolio/static/js/main.c06fe18e.js.map"
   },
   "entrypoints": [
     "static/css/main.78026efb.css",
-    "static/js/main.f9d0d266.js"
+    "static/js/main.c06fe18e.js"
   ]
 }
